@@ -253,9 +253,9 @@
     // Animated-Transition-Collection
     else if ([self.animator isKindOfClass:[ATCAnimatedTransitioning class]]) {
         
-        [self.animator setIsPush:YES];
+//        [self.animator setIsPush:YES];
         [self.animator setDuration:1.0];
-        [self.animator setDismissal:(operation == UINavigationControllerOperationPop)];
+//        [self.animator setDismissal:(operation == UINavigationControllerOperationPop)];
         
         if (operation == UINavigationControllerOperationPush) {
             
